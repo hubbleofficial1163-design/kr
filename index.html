@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Глеб & Милана - Свадьба</title>
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><path d='M50,85 C70,70 85,55 85,40 C85,25 70,15 60,15 C50,15 50,30 50,30 C50,30 50,15 40,15 C30,15 15,25 15,40 C15,55 30,70 50,85 Z' fill='%23f8e1e1' stroke='%23e0c7c7' stroke-width='3'/></svg>">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><path d='M50,85 C70,70 85,55 85,40 C85,25 70,15 60,15 C50,15 50,30 50,30 C50,30 50,15 40,15 C30,15 15,25 15,40 C15,55 30,70 50,85 Z' fill='%23ffe4e1' stroke='%23e0c7c7' stroke-width='3'/></svg>">
     <style>
         * {
             margin: 0;
@@ -13,18 +13,18 @@
         }
 
         :root {
-            --dark-beige: #c2b280;
-            --medium-beige: #dcd3c1;
-            --light-beige: #fff9f0;
-            --soft-beige: #fff5e6;
-            --warm-beige: #faebd7;
-            --light-cream: #fffaf0;
-            --accent-beige: #e6d7c2;
-            --milk: #fffef9;
+            --dark-beige: #ffd1d1; /* заменено на нежно-розовый */
+            --medium-beige: #ffe4e1; /* заменено на белково-розовый */
+            --light-beige: #fff0f0; /* заменено на очень светлый розовый */
+            --soft-beige: #ffe9e9; /* заменено на мягкий розовый */
+            --warm-beige: #ffe0e0; /* заменено на теплый розовый */
+            --light-cream: #fff5f5; /* заменено на сливочно-розовый */
+            --accent-beige: #ffd9d9; /* заменено на акцентный розовый */
+            --milk: #fffafa; /* заменено на белковый */
             --white: #ffffff;
-            --dark-brown: #5d4037;
-            --footer-bg: #dcd3c1;
-            --location-bg: #e6d7c2;
+            --dark-brown: #6b4e4e; /* заменено на приглушенный коричнево-розовый */
+            --footer-bg: #ffe4e1; /* заменено на белково-розовый */
+            --location-bg: #ffd9d9; /* заменено на нежно-розовый */
         }
 
         body {
@@ -126,7 +126,7 @@
         }
 
         .greeting-block {
-            background: rgba(220, 211, 193, 0.2);
+            background: rgba(255, 228, 225, 0.2); /* обновлен цвет */
             backdrop-filter: blur(0.5px);
             color: var(--white);
             padding: 40px;
@@ -134,7 +134,7 @@
             margin-top: 50px;
             position: relative;
             z-index: 2;
-            border: 1px solid rgba(255, 249, 240, 0.2);
+            border: 1px solid rgba(255, 240, 240, 0.2);
         }
 
         .greeting-text {
@@ -231,7 +231,7 @@
         }
 
         .calendar-day:hover {
-            background: rgba(250, 235, 215, 0.5);
+            background: rgba(255, 233, 233, 0.5); /* обновлен цвет */
         }
 
         .calendar-day.other-month {
@@ -243,7 +243,7 @@
             color: var(--dark-brown);
             font-weight: 600;
             transform: scale(1.1);
-            box-shadow: 0 5px 15px rgba(250, 235, 215, 0.5);
+            box-shadow: 0 5px 15px rgba(255, 224, 224, 0.5);
         }
 
         /* Timing - Расписание дня */
@@ -259,7 +259,7 @@
             backdrop-filter: blur(5px);
             border-radius: 25px;
             padding: 60px;
-            box-shadow: 0 20px 60px rgba(194, 178, 128, 0.1);
+            box-shadow: 0 20px 60px rgba(255, 209, 209, 0.1); /* обновлен цвет */
             position: relative;
             z-index: 2;
         }
@@ -441,7 +441,7 @@
             background: var(--light-cream);
             color: var(--dark-brown);
             transform: translateY(-2px);
-            box-shadow: 0 10px 20px rgba(194, 178, 128, 0.2);
+            box-shadow: 0 10px 20px rgba(255, 209, 209, 0.2); /* обновлен цвет */
         }
 
         /* Form - Анкета */
@@ -456,7 +456,7 @@
             backdrop-filter: blur(5px);
             border-radius: 25px;
             padding: 60px;
-            box-shadow: 0 20px 60px rgba(194, 178, 128, 0.1);
+            box-shadow: 0 20px 60px rgba(255, 209, 209, 0.1); /* обновлен цвет */
             max-width: 800px;
             margin: 0 auto;
             position: relative;
@@ -502,12 +502,12 @@
         .form-group textarea:focus {
             outline: none;
             border-color: var(--accent-beige);
-            box-shadow: 0 5px 15px rgba(230, 215, 194, 0.3);
+            box-shadow: 0 5px 15px rgba(255, 217, 217, 0.3); /* обновлен цвет */
         }
 
         .form-group select {
             appearance: none;
-            background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%235d4037'%3e%3cpath d='M7 10l5 5 5-5z'/%3e%3c/svg%3e");
+            background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%236b4e4e'%3e%3cpath d='M7 10l5 5 5-5z'/%3e%3c/svg%3e"); /* обновлен цвет */
             background-repeat: no-repeat;
             background-position: right 20px center;
             background-size: 16px;
@@ -572,20 +572,20 @@
         .submit-button:hover {
             background: var(--light-cream);
             transform: translateY(-2px);
-            box-shadow: 0 10px 20px rgba(230, 215, 194, 0.3);
+            box-shadow: 0 10px 20px rgba(255, 217, 217, 0.3); /* обновлен цвет */
         }
 
         .closing-message {
             text-align: center;
             margin-top: 60px;
             padding-top: 60px;
-            border-top: 1px solid rgba(194, 178, 128, 0.2);
+            border-top: 1px solid rgba(255, 209, 209, 0.2); /* обновлен цвет */
             color: var(--dark-brown);
             font-size: 1.3rem;
             line-height: 1.8;
         }
 
-        /* Футер - теперь бежевый! */
+        /* Футер - теперь белково-розовый! */
         footer {
             background: var(--footer-bg);
             color: var(--dark-brown);
@@ -971,7 +971,7 @@
         </div>
     </section>
 
-    <!-- Location - Локация (теперь полностью бежевая) -->
+    <!-- Location - Локация (теперь полностью нежно-розовая) -->
     <section class="location-section">
         <div class="container">
             <h2 class="section-title">Локация</h2>
@@ -1100,7 +1100,7 @@
         </div>
     </section>
 
-    <!-- Футер (теперь полностью бежевый!) -->
+    <!-- Футер (теперь полностью белково-розовый!) -->
     <footer>
         <div class="footer-floral"></div>
         <div class="container footer-content">

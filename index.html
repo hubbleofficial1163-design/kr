@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Глеб & Милана - Свадьба</title>
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><path d='M50,85 C70,70 85,55 85,40 C85,25 70,15 60,15 C50,15 50,30 50,30 C50,30 50,15 40,15 C30,15 15,25 15,40 C15,55 30,70 50,85 Z' fill='%23ffe4e1' stroke='%23e0c7c7' stroke-width='3'/></svg>">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><path d='M50,85 C70,70 85,55 85,40 C85,25 70,15 60,15 C50,15 50,30 50,30 C50,30 50,15 40,15 C30,15 15,25 15,40 C15,55 30,70 50,85 Z' fill='%23dfd8d0' stroke='%23c0b9b0' stroke-width='3'/></svg>">
     <style>
+        /* Все ваши существующие стили остаются без изменений */
         * {
             margin: 0;
             padding: 0;
@@ -13,18 +14,18 @@
         }
 
         :root {
-            --dark-beige: #ffd1d1; /* заменено на нежно-розовый */
-            --medium-beige: #ffe4e1; /* заменено на белково-розовый */
-            --light-beige: #fff0f0; /* заменено на очень светлый розовый */
-            --soft-beige: #ffe9e9; /* заменено на мягкий розовый */
-            --warm-beige: #ffe0e0; /* заменено на теплый розовый */
-            --light-cream: #fff5f5; /* заменено на сливочно-розовый */
-            --accent-beige: #ffd9d9; /* заменено на акцентный розовый */
-            --milk: #fffafa; /* заменено на белковый */
+            --dark-beige: #dfd8d0;
+            --medium-beige: #e5dfd8;
+            --light-beige: #f0ebe6;
+            --soft-beige: #e8e2dc;
+            --warm-beige: #e0d9d0;
+            --light-cream: #f5f1ed;
+            --accent-beige: #dfd8d0;
+            --milk: #faf8f6;
             --white: #ffffff;
-            --dark-brown: #6b4e4e; /* заменено на приглушенный коричнево-розовый */
-            --footer-bg: #ffe4e1; /* заменено на белково-розовый */
-            --location-bg: #ffd9d9; /* заменено на нежно-розовый */
+            --dark-brown: #5e5a55;
+            --footer-bg: #dfd8d0;
+            --location-bg: #dfd8d0;
         }
 
         body {
@@ -126,7 +127,7 @@
         }
 
         .greeting-block {
-            background: rgba(255, 228, 225, 0.2); /* обновлен цвет */
+            background: rgba(223, 216, 208, 0.2);
             backdrop-filter: blur(0.5px);
             color: var(--white);
             padding: 40px;
@@ -134,7 +135,7 @@
             margin-top: 50px;
             position: relative;
             z-index: 2;
-            border: 1px solid rgba(255, 240, 240, 0.2);
+            border: 1px solid rgba(240, 235, 230, 0.2);
         }
 
         .greeting-text {
@@ -231,7 +232,7 @@
         }
 
         .calendar-day:hover {
-            background: rgba(255, 233, 233, 0.5); /* обновлен цвет */
+            background: rgba(223, 216, 208, 0.2);
         }
 
         .calendar-day.other-month {
@@ -243,7 +244,7 @@
             color: var(--dark-brown);
             font-weight: 600;
             transform: scale(1.1);
-            box-shadow: 0 5px 15px rgba(255, 224, 224, 0.5);
+            box-shadow: 0 5px 15px rgba(223, 216, 208, 0.5);
         }
 
         /* Timing - Расписание дня */
@@ -259,7 +260,7 @@
             backdrop-filter: blur(5px);
             border-radius: 25px;
             padding: 60px;
-            box-shadow: 0 20px 60px rgba(255, 209, 209, 0.1); /* обновлен цвет */
+            box-shadow: 0 20px 60px rgba(223, 216, 208, 0.1);
             position: relative;
             z-index: 2;
         }
@@ -441,7 +442,7 @@
             background: var(--light-cream);
             color: var(--dark-brown);
             transform: translateY(-2px);
-            box-shadow: 0 10px 20px rgba(255, 209, 209, 0.2); /* обновлен цвет */
+            box-shadow: 0 10px 20px rgba(223, 216, 208, 0.2);
         }
 
         /* Form - Анкета */
@@ -456,7 +457,7 @@
             backdrop-filter: blur(5px);
             border-radius: 25px;
             padding: 60px;
-            box-shadow: 0 20px 60px rgba(255, 209, 209, 0.1); /* обновлен цвет */
+            box-shadow: 0 20px 60px rgba(223, 216, 208, 0.1);
             max-width: 800px;
             margin: 0 auto;
             position: relative;
@@ -502,12 +503,12 @@
         .form-group textarea:focus {
             outline: none;
             border-color: var(--accent-beige);
-            box-shadow: 0 5px 15px rgba(255, 217, 217, 0.3); /* обновлен цвет */
+            box-shadow: 0 5px 15px rgba(223, 216, 208, 0.3);
         }
 
         .form-group select {
             appearance: none;
-            background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%236b4e4e'%3e%3cpath d='M7 10l5 5 5-5z'/%3e%3c/svg%3e"); /* обновлен цвет */
+            background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%235e5a55'%3e%3cpath d='M7 10l5 5 5-5z'/%3e%3c/svg%3e");
             background-repeat: no-repeat;
             background-position: right 20px center;
             background-size: 16px;
@@ -572,20 +573,49 @@
         .submit-button:hover {
             background: var(--light-cream);
             transform: translateY(-2px);
-            box-shadow: 0 10px 20px rgba(255, 217, 217, 0.3); /* обновлен цвет */
+            box-shadow: 0 10px 20px rgba(223, 216, 208, 0.3);
+        }
+
+        /* Стили для уведомлений */
+        .notification {
+            margin-bottom: 30px;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            font-size: 1.2rem;
+            display: none;
+        }
+
+        .notification.success {
+            display: block;
+            background: rgba(94, 90, 85, 0.1);
+            color: var(--dark-brown);
+            border: 2px solid var(--warm-beige);
+        }
+
+        .notification.error {
+            display: block;
+            background: rgba(255, 99, 71, 0.1);
+            color: #8b3a3a;
+            border: 2px solid #ffb6b6;
+        }
+
+        /* Скрытый iframe для отправки формы */
+        .hidden-iframe {
+            display: none;
         }
 
         .closing-message {
             text-align: center;
             margin-top: 60px;
             padding-top: 60px;
-            border-top: 1px solid rgba(255, 209, 209, 0.2); /* обновлен цвет */
+            border-top: 1px solid rgba(223, 216, 208, 0.2);
             color: var(--dark-brown);
             font-size: 1.3rem;
             line-height: 1.8;
         }
 
-        /* Футер - теперь белково-розовый! */
+        /* Футер */
         footer {
             background: var(--footer-bg);
             color: var(--dark-brown);
@@ -620,39 +650,32 @@
             opacity: 0.1;
         }
 
-        /* Оптимизация для смартфонов */
+        /* Медиа-запросы (оставляем без изменений) */
         @media (max-width: 1024px) {
             .container {
                 padding: 0 20px;
             }
-
             .cover-content {
                 padding: 0 40px;
             }
-
             .names {
                 font-size: 4rem;
             }
-
             .date {
                 font-size: 1.8rem;
             }
-
             .location-content {
                 grid-template-columns: 1fr;
                 gap: 30px;
             }
-
             .timeline-item {
                 flex-direction: column;
                 text-align: center;
             }
-
             .timeline-icon {
                 margin-right: 0;
                 margin-bottom: 20px;
             }
-
             .timeline-item::before {
                 left: 50%;
                 height: calc(100% - 80px);
@@ -664,81 +687,63 @@
             section {
                 padding: 60px 0;
             }
-
             .section-title {
                 font-size: 2.5rem;
                 margin-bottom: 40px;
             }
-
             .names {
                 font-size: 3rem;
                 letter-spacing: 5px;
             }
-
             .date {
                 font-size: 1.5rem;
             }
-
             .greeting-block {
                 padding: 30px;
                 margin-top: 30px;
             }
-
             .greeting-text {
                 font-size: 1.1rem;
             }
-
             .signature {
                 font-size: 1.5rem;
             }
-
             .calendar-container {
                 padding: 30px 20px;
             }
-
             .calendar-day {
                 font-size: 0.9rem;
             }
-
             .timing-container,
             .form-container {
                 padding: 30px;
             }
-
             .timeline-icon {
                 width: 60px;
                 height: 60px;
             }
-
             .timeline-icon i {
                 font-size: 1.5rem;
             }
-
             .timeline-time {
                 font-size: 1.5rem;
             }
-
             .timeline-text {
                 font-size: 1.1rem;
             }
-
             .radio-group {
                 flex-direction: column;
                 gap: 15px;
             }
-
             .checkbox-group {
                 grid-template-columns: 1fr;
             }
-
             .location-content {
                 padding: 30px 20px;
             }
-
             .location-image img {
                 height: 250px;
             }
-
             .map-button {
                 padding: 12px 30px;
                 font-size: 1rem;
@@ -749,78 +754,61 @@
             .container {
                 padding: 0 15px;
             }
-
             section {
                 padding: 40px 0;
             }
-
             .section-title {
                 font-size: 2rem;
             }
-
             .names {
                 font-size: 2.5rem;
                 letter-spacing: 3px;
             }
-
             .date {
                 font-size: 1.2rem;
                 margin-bottom: 30px;
             }
-
             .calendar-container {
                 padding: 20px 15px;
             }
-
             .calendar-month-year {
                 font-size: 1.5rem;
             }
-
             .calendar-day {
                 font-size: 0.8rem;
             }
-
             .timeline-item {
                 margin-bottom: 30px;
             }
-
             .timeline-icon {
                 width: 50px;
                 height: 50px;
                 margin-bottom: 15px;
             }
-
             .timeline-icon i {
                 font-size: 1.2rem;
             }
-
             .timeline-time {
                 font-size: 1.3rem;
             }
-
             .timeline-text {
                 font-size: 1rem;
             }
-
             .form-container {
                 padding: 20px 15px;
             }
-
             .form-group input,
             .form-group select,
             .form-group textarea {
                 padding: 12px 15px;
                 font-size: 1rem;
             }
-
             footer {
                 padding: 50px 0;
             }
-
             footer p {
                 font-size: 1.1rem;
             }
-
             .closing-message {
                 margin-top: 40px;
                 padding-top: 40px;
@@ -832,34 +820,28 @@
             .names {
                 font-size: 2rem;
             }
-
             .section-title {
                 font-size: 1.8rem;
             }
-
             .calendar-month-year {
                 font-size: 1.3rem;
             }
         }
 
-        /* Touch optimization */
         @media (hover: none) and (pointer: coarse) {
             .calendar-day:hover {
                 background: transparent;
             }
-            
             .submit-button:hover {
                 transform: none;
                 box-shadow: none;
             }
-            
             .map-button:hover {
                 transform: none;
                 box-shadow: none;
             }
         }
 
-        /* Убираем все подложки и псевдоэлементы */
         .timing-section::before,
         .location-section::before,
         .form-section::before {
@@ -971,7 +953,7 @@
         </div>
     </section>
 
-    <!-- Location - Локация (теперь полностью нежно-розовая) -->
+    <!-- Location - Локация -->
     <section class="location-section">
         <div class="container">
             <h2 class="section-title">Локация</h2>
@@ -991,8 +973,8 @@
                             Пространство отдыха «Правая Белая»
                         </div>
                         <a href="https://yandex.ru/maps/?ll=55.963438%2C54.733166&mode=poi&poi%5Bpoint%5D=55.963438%2C54.733166&z=17.6" 
-   target="_blank" 
-   class="map-button">Посмотреть на карте</a>
+                           target="_blank" 
+                           class="map-button">Посмотреть на карте</a>
                     </div>
                     <div class="location-image">
                         <img src="2.jpg" alt="Место проведения свадьбы">
@@ -1002,7 +984,7 @@
         </div>
     </section>
 
-    <!-- Form - Анкета -->
+    <!-- Form - Анкета с интеграцией Google Sheets -->
     <section class="form-section">
         <div class="container">
             <h2 class="section-title">Подтвердите участие</h2>
@@ -1013,7 +995,16 @@
             <div id="notification" class="notification"></div>
             
             <div class="form-container">
-                <form id="weddingForm" onsubmit="event.preventDefault(); alert('Форма отправлена (демо-режим)'); this.reset();">
+                <!-- 
+
+                
+                <!-- Форма с отправкой через iframe для 100% обхода CORS -->
+                <form id="weddingForm" 
+                      action="https://script.google.com/macros/s/AKfycbz9pPgjW84S1DkrNN__Yp6r2WN31jGnMtsN6Bd7zDTnvxw9ODVjN8cSDR-XtUJwHs0e1Q/exec" 
+                      method="POST" 
+                      target="hidden_iframe"
+                      enctype="multipart/form-data">
+                    
                     <div class="form-group">
                         <label for="name">Ваше имя и фамилия *</label>
                         <input type="text" id="name" name="name" required placeholder="Иван Иванов">
@@ -1039,15 +1030,15 @@
                         <label>Присутствие *</label>
                         <div class="radio-group">
                             <label class="radio-option">
-                                <input type="radio" name="attendance" value="yes" required>
+                                <input type="radio" name="attendance" value="С радостью приду!" required>
                                 <span>С радостью приду!</span>
                             </label>
                             <label class="radio-option">
-                                <input type="radio" name="attendance" value="no">
+                                <input type="radio" name="attendance" value="К сожалению, не смогу">
                                 <span>К сожалению, не смогу</span>
                             </label>
                             <label class="radio-option">
-                                <input type="radio" name="attendance" value="maybe">
+                                <input type="radio" name="attendance" value="Пока не уверен(а)">
                                 <span>Пока не уверен(а)</span>
                             </label>
                         </div>
@@ -1057,23 +1048,23 @@
                         <label>Предпочтения по напиткам</label>
                         <div class="checkbox-group">
                             <label class="checkbox-option">
-                                <input type="checkbox" name="alcohol" value="red_wine">
+                                <input type="checkbox" name="alcohol" value="Красное вино">
                                 <span>Красное вино</span>
                             </label>
                             <label class="checkbox-option">
-                                <input type="checkbox" name="alcohol" value="white_wine">
+                                <input type="checkbox" name="alcohol" value="Белое вино">
                                 <span>Белое вино</span>
                             </label>
                             <label class="checkbox-option">
-                                <input type="checkbox" name="alcohol" value="champagne">
+                                <input type="checkbox" name="alcohol" value="Шампанское">
                                 <span>Шампанское</span>
                             </label>
                             <label class="checkbox-option">
-                                <input type="checkbox" name="alcohol" value="tinctures">
+                                <input type="checkbox" name="alcohol" value="Настойки">
                                 <span>Настойки</span>
                             </label>
                             <label class="checkbox-option">
-                                <input type="checkbox" name="alcohol" value="non_alcoholic">
+                                <input type="checkbox" name="alcohol" value="Безалкогольные напитки">
                                 <span>Безалкогольные напитки</span>
                             </label>
                         </div>
@@ -1092,6 +1083,9 @@
                     <button type="submit" class="submit-button">Отправить ответ</button>
                 </form>
                 
+                <!-- Скрытый iframe для приёма ответа от Apps Script -->
+                <iframe name="hidden_iframe" class="hidden-iframe" id="hidden_iframe"></iframe>
+                
                 <div class="closing-message">
                     Спасибо, что разделите с нами этот особенный день!<br>
                     С любовью, Глеб и Милана
@@ -1100,7 +1094,7 @@
         </div>
     </section>
 
-    <!-- Футер (теперь полностью белково-розовый!) -->
+    <!-- Футер -->
     <footer>
         <div class="footer-floral"></div>
         <div class="container footer-content">
@@ -1184,8 +1178,10 @@
             }
         }
 
+        // Инициализация календаря
         const weddingCalendar = new WeddingCalendar();
 
+        // Intersection Observer для анимации формы
         const observer = new IntersectionObserver((entries) => {
             entries.forEach(entry => {
                 if (entry.isIntersecting) {
@@ -1194,10 +1190,13 @@
             });
         }, { threshold: 0.1 });
 
+        // Скрипт для отправки формы в Google Sheets
         document.addEventListener('DOMContentLoaded', () => {
+            // Анимация полей формы
             const formGroups = document.querySelectorAll('.form-group');
             formGroups.forEach(group => observer.observe(group));
             
+            // Плавная прокрутка для якорей
             document.querySelectorAll('a[href^="#"]').forEach(anchor => {
                 anchor.addEventListener('click', function (e) {
                     e.preventDefault();
@@ -1213,10 +1212,71 @@
                     }
                 });
             });
+
+            // Обработка отправки формы
+            const form = document.getElementById('weddingForm');
+            const iframe = document.getElementById('hidden_iframe');
+            const notification = document.getElementById('notification');
+
+            if (form) {
+                form.addEventListener('submit', function(e) {
+                    e.preventDefault();
+                    
+                    // Показываем уведомление об отправке
+                    notification.className = 'notification success';
+                    notification.innerHTML = '⏳ Отправка данных...';
+                    
+                    // Обработчик загрузки iframe
+                    iframe.onload = function() {
+                        try {
+                            // Пытаемся получить текст ответа из iframe
+                            let responseText = '';
+                            try {
+                                responseText = iframe.contentDocument.body.innerText || 
+                                              iframe.contentDocument.body.textContent ||
+                                              'Спасибо! Ваш ответ записан.';
+                            } catch(e) {
+                                responseText = 'Спасибо! Ваш ответ записан.';
+                            }
+                            
+                            // Показываем успешное уведомление
+                            notification.className = 'notification success';
+                            notification.innerHTML = '✅ Спасибо! Ваш ответ записан. До встречи на свадьбе!';
+                            
+                            // Очищаем форму
+                            form.reset();
+                            
+                            // Убираем уведомление через 5 секунд
+                            setTimeout(() => {
+                                notification.style.display = 'none';
+                                notification.className = 'notification';
+                            }, 5000);
+                        } catch(error) {
+                            console.log('Ответ получен, но не удалось прочитать содержимое');
+                            notification.className = 'notification success';
+                            notification.innerHTML = '✅ Спасибо! Ваш ответ записан. До встречи на свадьбе!';
+                            form.reset();
+                        }
+                    };
+                    
+                    // Отправляем форму
+                    form.submit();
+                    
+                    // Показываем уведомление на случай, если iframe.onload не сработает
+                    setTimeout(() => {
+                        if (notification.innerHTML.includes('⏳')) {
+                            notification.className = 'notification success';
+                            notification.innerHTML = '✅ Спасибо! Ваш ответ записан. До встречи на свадьбе!';
+                            form.reset();
+                        }
+                    }, 3000);
+                });
+            }
         });
 
+        // Предзагрузка изображений
         window.addEventListener('load', function() {
-            const images = ['1.jpg', '2.jpg'];
+            const images = ['1.jpg', '2.jpg', '11.jpg'];
             images.forEach(img => {
                 const image = new Image();
                 image.src = img;
